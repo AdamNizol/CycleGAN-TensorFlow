@@ -1,4 +1,4 @@
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import random
 import os
 
@@ -7,7 +7,7 @@ try:
 except ImportError:
   # Python 2 polyfill module
   from scandir import scandir
-    
+
 
 FLAGS = tf.flags.FLAGS
 
