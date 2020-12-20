@@ -6,7 +6,7 @@ python export_graph.py --model pretrained/apple2orange.pb \
                        --image_size 256
 """
 
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 import os
 from model import CycleGAN
 import utils

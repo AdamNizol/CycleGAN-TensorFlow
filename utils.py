@@ -1,4 +1,4 @@
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 import random
 
 def convert2int(image):
@@ -55,3 +55,4 @@ class ImagePool:
         return tmp
       else:
         return image
+
